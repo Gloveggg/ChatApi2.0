@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="43f0e76870e14797ba18675679cb6bd5" Name="Diagram1">
+        <EntityTypeShape EntityType="user17Model.ChatMessage" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user17Model.Chatroom" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user17Model.ChatroomEmploee" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user17Model.Employee" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="user17Model.Role" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user17Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="user17Model.FK_ChatMessage_Chatroom" ManuallyRouted="false" />
+        <AssociationConnector Association="user17Model.FK_ChatMessage_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="user17Model.FK_ChatroomEmploee_Chatroom" ManuallyRouted="false" />
+        <AssociationConnector Association="user17Model.FK_ChatroomEmploee_Employee" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
